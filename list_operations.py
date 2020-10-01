@@ -187,7 +187,8 @@ def delete_third_and_seventh(input_list):
 
     """
 
-
+    input_list.pop(2)
+    input_list.pop(5)
 
     pass
 
