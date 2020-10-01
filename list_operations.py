@@ -149,7 +149,8 @@ def replace_third_and_last(input_list):
 
     """
 
-    input_list[2], input_list[-1] = 37
+    input_list[2] = 37
+    input_list[-1] = 37
 
     pass
 
@@ -185,6 +186,8 @@ def delete_third_and_seventh(input_list):
     True
 
     """
+
+
 
     pass
 
