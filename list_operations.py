@@ -149,8 +149,7 @@ def replace_third_and_last(input_list):
 
     """
 
-    input_list[2] = 37
-    input_list[-1] = 37
+    input_list[2], input_list[-1] = 37
 
     pass
 
@@ -170,6 +169,7 @@ def replace_middle(input_list):
     True
 
     """
+    input_list[2:-2] = [42, 37]
 
     pass
 
